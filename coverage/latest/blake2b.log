@@ -1,0 +1,57 @@
+=== RUN   TestF
+=== RUN   TestF/test_vector_0
+--- PASS: TestF (0.00s)
+    --- PASS: TestF/test_vector_0 (0.00s)
+=== RUN   TestHashes
+    blake2b_test.go:31: AVX2 version
+    blake2b_test.go:36: AVX version
+    blake2b_test.go:41: SSE4 version
+    blake2b_test.go:45: generic version
+--- PASS: TestHashes (0.00s)
+=== RUN   TestHashes2X
+    blake2b_test.go:55: AVX2 version
+    blake2b_test.go:60: AVX version
+    blake2b_test.go:65: SSE4 version
+    blake2b_test.go:69: generic version
+--- PASS: TestHashes2X (0.03s)
+=== RUN   TestMarshal
+--- PASS: TestMarshal (0.00s)
+=== RUN   TestSelfTest
+--- PASS: TestSelfTest (0.00s)
+=== RUN   FuzzBlake2bF
+=== RUN   FuzzBlake2bF/05a79f06cf3f67f726dae68d18a2290f6c9a50c9
+=== RUN   FuzzBlake2bF/0cadb8caeaae8beb8fbce933351ddb0b29631fb1
+=== RUN   FuzzBlake2bF/0f80407306415504fd6df20f7da9ad612c1cc6b0
+=== RUN   FuzzBlake2bF/14a50f4e37b4240aebb26d82eb32b011ba003416
+=== RUN   FuzzBlake2bF/467a373b2a716a870de25416e466efc975b94f09
+=== RUN   FuzzBlake2bF/5f82566c3238e1edb4be31eee2d91d949f55e538
+=== RUN   FuzzBlake2bF/662918803e502676e81c9aef6b392f01351f890f
+=== RUN   FuzzBlake2bF/71585cb7fecf0d815a90317e64a3a1672d831e3f
+=== RUN   FuzzBlake2bF/71853c6197a6a7f222db0f1978c7cb232b87c5ee
+=== RUN   FuzzBlake2bF/9069ca78e7450a285173431b3e52c5c25299e473
+=== RUN   FuzzBlake2bF/911f355a2399e92bcb7dba6bf30943da8212a73a
+=== RUN   FuzzBlake2bF/afcc53fb1478f02de8104f84f3d2bdf11196cb09
+=== RUN   FuzzBlake2bF/b81a4be1cbf7957f3c75a9b1ded267355f647958
+=== RUN   FuzzBlake2bF/ca7588085a1730a0ee81183524d8c06dfa26ff12
+=== RUN   FuzzBlake2bF/ced1447377a062854cc638ee08b6649b5d0e499e
+=== RUN   FuzzBlake2bF/d51b02ee1725d000acf824665bd1f7a2a8087bf0
+--- PASS: FuzzBlake2bF (0.00s)
+    --- PASS: FuzzBlake2bF/05a79f06cf3f67f726dae68d18a2290f6c9a50c9 (0.00s)
+    --- PASS: FuzzBlake2bF/0cadb8caeaae8beb8fbce933351ddb0b29631fb1 (0.00s)
+    --- PASS: FuzzBlake2bF/0f80407306415504fd6df20f7da9ad612c1cc6b0 (0.00s)
+    --- PASS: FuzzBlake2bF/14a50f4e37b4240aebb26d82eb32b011ba003416 (0.00s)
+    --- PASS: FuzzBlake2bF/467a373b2a716a870de25416e466efc975b94f09 (0.00s)
+    --- PASS: FuzzBlake2bF/5f82566c3238e1edb4be31eee2d91d949f55e538 (0.00s)
+    --- PASS: FuzzBlake2bF/662918803e502676e81c9aef6b392f01351f890f (0.00s)
+    --- PASS: FuzzBlake2bF/71585cb7fecf0d815a90317e64a3a1672d831e3f (0.00s)
+    --- PASS: FuzzBlake2bF/71853c6197a6a7f222db0f1978c7cb232b87c5ee (0.00s)
+    --- PASS: FuzzBlake2bF/9069ca78e7450a285173431b3e52c5c25299e473 (0.00s)
+    --- PASS: FuzzBlake2bF/911f355a2399e92bcb7dba6bf30943da8212a73a (0.00s)
+    --- PASS: FuzzBlake2bF/afcc53fb1478f02de8104f84f3d2bdf11196cb09 (0.00s)
+    --- PASS: FuzzBlake2bF/b81a4be1cbf7957f3c75a9b1ded267355f647958 (0.00s)
+    --- PASS: FuzzBlake2bF/ca7588085a1730a0ee81183524d8c06dfa26ff12 (0.00s)
+    --- PASS: FuzzBlake2bF/ced1447377a062854cc638ee08b6649b5d0e499e (0.00s)
+    --- PASS: FuzzBlake2bF/d51b02ee1725d000acf824665bd1f7a2a8087bf0 (0.00s)
+PASS
+coverage: 84.6% of statements
+ok  	github.com/morph-l2/go-ethereum/crypto/blake2b	0.035s	coverage: 84.6% of statements
