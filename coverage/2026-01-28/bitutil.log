@@ -98,4 +98,4 @@
     --- PASS: FuzzBitutil/ff9302b14cd62469f388adb4afa37fc06b06dcbc (0.00s)
 PASS
 coverage: 76.2% of statements
-ok  	github.com/morph-l2/go-ethereum/tests/fuzzers/bitutil	0.004s	coverage: 76.2% of statements
+ok  	github.com/morph-l2/go-ethereum/tests/fuzzers/bitutil	0.005s	coverage: 76.2% of statements
